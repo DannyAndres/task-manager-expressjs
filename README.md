@@ -24,7 +24,11 @@ The server will start on http://localhost:3000.
 
 ### Testing
 
-Run SWAGGER testing environment to test the api, accessing the following path http://localhost:3000/swagger/.
+Run SWAGGER testing environment to test the api, accessing the following path http://localhost:3000/swagger.
+
+<img width="1478" alt="Screenshot 2025-01-06 at 9 57 08 PM" src="https://github.com/user-attachments/assets/6a945c79-c965-4daa-ba12-3b292e540fde" />
+<img width="1507" alt="Screenshot 2025-01-06 at 9 57 00 PM" src="https://github.com/user-attachments/assets/a3125c76-0dda-4f85-9754-9aad3c20df99" />
+
 
 ### Production Mode
 
