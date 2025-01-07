@@ -8,7 +8,8 @@ RESTful API built with TypeScript and Express for managing tasks.
 To run the server in development mode using `ts-node`, follow these steps:
 
 1. Ensure you are in the project directory.
-2. Run the following command:
+2. Copy `.env.example` file and rename it into `.env`.
+3. Run the following command:
 ```bash
    pnpm run start
 ```
@@ -16,7 +17,8 @@ To run the server in development mode using `ts-node`, follow these steps:
 And if you want to run it in watch mode with nodemon, follow these steps:
 
 1. Ensure you are in the project directory.
-2. Run the following command:
+2. Copy `.env.example` file and rename it into `.env`.
+3. Run the following command:
 ```bash
    pnpm run dev
 ```
