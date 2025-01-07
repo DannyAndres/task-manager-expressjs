@@ -5,7 +5,7 @@ const router = Router();
 
 /**
  * @swagger
- * /api/tasks:
+ * /api/v1/tasks:
  *   get:
  *     description: Get all tasks
  *     responses:
@@ -16,7 +16,7 @@ router.get('/', getTasks);
 
 /**
  * @swagger
- * /api/tasks:
+ * /api/v1/tasks:
  *   post:
  *     description: Create a new task
  *     requestBody:
@@ -65,7 +65,7 @@ router.post('/', validateCreateTask, createTask);
 
 /**
  * @swagger
- * /api/tasks/{id}:
+ * /api/v1/tasks/{id}:
  *   put:
  *     description: Update an existing task
  *     parameters:
@@ -117,7 +117,7 @@ router.put('/:id', validateCreateTask, updateTask);
 
 /**
  * @swagger
- * /api/tasks/{id}:
+ * /api/v1/tasks/{id}:
  *   delete:
  *     description: Delete a task by ID
  *     parameters:

@@ -21,7 +21,7 @@ const swaggerSpec = swaggerJSDoc({
 
 
 app.use(express.json());
-app.use('/api/tasks', tasksRouter);
+app.use('/api/v1/tasks', tasksRouter);
 app.use('/swagger', swaggerUi.serve, swaggerUi.setup(swaggerSpec));
 
 
